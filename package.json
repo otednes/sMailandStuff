@@ -5,7 +5,7 @@
   "author": "Lars Kaare Skjorestad",
   "license": "MIT",
   "scripts": {
-    "start": "node ./src/www.js  | ./node_modules/.bin/bunyan ",
+    "start": "node ./src/www.js",
     "nodemon": "./node_modules/.bin/nodemon ./src/www.js | ./node_modules/.bin/bunyan",
     "lint": "node ./node_modules/.bin/eslint . --ext .js",
     "test": "NODE_ENV=test ./node_modules/.bin/mocha",
